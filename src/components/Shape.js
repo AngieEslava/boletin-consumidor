@@ -5,8 +5,8 @@ import Col from 'react-bootstrap/Col'
 
 const Shape =()=>{
     return(
-        <Container>
-            <h1 className="wrap font-playfair-bold">NOTICIAS</h1>
+        <Container className="contenido wrapper">
+            <h3 className="wrap font-playfair-bold">NOTICIAS</h3>
             <Row>
                 <Col>
                     <h6 className="hoy">HOY</h6>
@@ -25,17 +25,7 @@ const Shape =()=>{
                     </section>
                 </Col>
                 <Col>
-                    <section className="categories">
-                        <h5 className="font-playfair-bold">Categorias</h5>
-                        <ul>
-                            <li>Aseo</li>
-                            <li>Alimentación</li>
-                            <li>Muebles</li>
-                            <li>Electrodomesticos</li>
-                            <li>Vehículos</li>
-                        </ul>
-                    </section>
-                    <h1 className="wrap font-playfair-bold">De interes</h1>
+                    <h3 className="wrap font-playfair-bold">De interes</h3>
 
                     <section className="wrap">
                         <h5 className="font-playfair-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore officia autem, possimus ipsum fugiat temporibus.</h5>
